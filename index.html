@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Shajith Abdul Kareem — MCA student, Python developer and aspiring data analyst.">
+  <title>Shajith Abdul Kareem | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#home">SAK<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+        <a href="#experience">Experience</a><a href="#education">Education</a><a class="nav-contact" href="#contact">Contact ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO ENTRY-LEVEL OPPORTUNITIES</p>
+        <h1>Hi, I'm <span>Shajith</span>.<br> I build things with<br> code & curiosity.</h1>
+        <p class="hero-text">Final-year MCA student interested in Python development, data analytics, machine learning and cloud technologies.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="btn btn-outline" href="Shajith_Abdul_Kareem_Resume_Updated.pdf" download>Download CV ↓</a>
+        </div>
+        <div class="quick-info"><span>📍 Ramanathapuram, India</span><span>🎓 MCA · 2025–2027</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><i></i><i></i><i></i><span>developer.py</span></div>
+          <div class="code-lines">
+            <p><b>01</b> <span class="purple">class</span> Developer:</p>
+            <p><b>02</b> &nbsp; skills = [</p>
+            <p><b>03</b> &nbsp;&nbsp; <span class="green">"Python"</span>,</p>
+            <p><b>04</b> &nbsp;&nbsp; <span class="green">"Machine Learning"</span>,</p>
+            <p><b>05</b> &nbsp;&nbsp; <span class="green">"AWS"</span></p>
+            <p><b>06</b> &nbsp; ]</p>
+            <p><b>07</b> &nbsp; <span class="purple">def</span> build():</p>
+            <p><b>08</b> &nbsp;&nbsp; <span class="orange">return</span> "Keep learning."</p>
+            <p class="cursor-line"><b>09</b> <span class="cursor"></span></p>
+          </div>
+        </div>
+        <div class="float-tag tag-python">Python</div><div class="float-tag tag-ml">Machine Learning</div>
+        <div class="float-tag tag-cloud">☁ AWS</div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div><p class="section-kicker">01 / ABOUT ME</p><h2>Curious mind.<br><span>Practical mindset.</span></h2></div>
+        <div class="about-content">
+          <p>I'm a Computer Science graduate currently pursuing my Master of Computer Applications at MEASI Institute of Information Technology. I enjoy turning ideas into useful applications and exploring how data and machine learning can solve real problems.</p>
+          <p>My hands-on work includes AI-powered career guidance, resume analysis, data processing and AWS-based project experience. I'm looking forward to learning, contributing and growing with a development team.</p>
+          <div class="stats"><div><strong>2</strong><small>Featured projects</small></div><div><strong>6+</strong><small>Certifications</small></div><div><strong>2027</strong><small>MCA graduation</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="section-kicker">02 / TOOLKIT</p><h2>Skills & technologies</h2>
+      <p class="section-intro">Tools I've used across coursework, projects and hands-on practice.</p>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Programming</h3><p>Python · SQL · R · JavaScript · PHP</p></article>
+        <article class="skill-card"><div class="skill-icon">◈</div><h3>Machine Learning</h3><p>Regression · SVM · KNN · K-Means · Naive Bayes · Decision Tree · Bagging · TF-IDF</p></article>
+        <article class="skill-card"><div class="skill-icon">▦</div><h3>Data & Libraries</h3><p>Pandas · NumPy · Scikit-learn · Matplotlib · pdfplumber · Joblib</p></article>
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Web Development</h3><p>Flask · HTML · CSS · JavaScript · Chart.js</p></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>Databases</h3><p>MySQL · MongoDB (Basic)</p></article>
+        <article class="skill-card"><div class="skill-icon">☁</div><h3>Cloud & Tools</h3><p>AWS EC2 · S3 · Elastic Load Balancing · Auto Scaling · Git · GitHub</p></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <p class="section-kicker">03 / SELECTED WORK</p><h2>Projects I've built</h2>
+        <p class="section-intro">A couple of projects where I combined problem-solving with practical development.</p>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <div class="project-main"><div class="project-meta">PYTHON · MACHINE LEARNING · WEB APP</div><h3>NexPath</h3><p class="project-subtitle">AI-Powered Career Guidance Platform</p>
+              <p>A web platform that helps students explore suitable career paths through skill-based assessments. A Bagging Classifier with a Decision Tree base estimator predicts career paths and supports personalized job and course recommendations.</p>
+              <div class="tags"><span>Scikit-learn</span><span>Pandas</span><span>NumPy</span><span>PHP</span><span>MySQL</span></div>
+            </div><div class="project-mark">N<span>↗</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <div class="project-main"><div class="project-meta">FLASK · NLP · RESUME ANALYSIS</div><h3>CVision AI</h3><p class="project-subtitle">Resume Analyzer & Job Suitability Predictor</p>
+              <p>A Flask application that extracts text from PDF resumes, predicts a suitable job category across eight roles, identifies skills and highlights skill gaps. Includes a job suitability score and an interactive Chart.js dashboard.</p>
+              <div class="tags"><span>TF-IDF</span><span>Logistic Regression</span><span>pdfplumber</span><span>Chart.js</span></div>
+              <a class="text-link" href="https://github.com/SHAJITH-AK" target="_blank" rel="noopener">Explore GitHub ↗</a>
+            </div><div class="project-mark">CV<span>↗</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="experience">
+      <p class="section-kicker">04 / EXPERIENCE</p><h2>Learning by doing</h2>
+      <div class="timeline">
+        <div class="timeline-date">OCT – NOV 2026</div>
+        <div class="timeline-content"><span class="timeline-label">INTERNSHIP</span><h3>AWS with DevOps Intern</h3><h4>TVK Technologies</h4>
+          <p>Worked on the “Art Gallery using AWS” project, contributing to project development, task execution and documentation as part of a team. Collaborated with teammates and the program manager.</p>
+          <div class="tags"><span>AWS</span><span>DevOps</span><span>Team collaboration</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container">
+        <p class="section-kicker">05 / EDUCATION</p><h2>Academic background</h2>
+        <div class="education-grid">
+          <article class="education-card"><span class="edu-year">2025 — 2027</span><h3>Master of Computer Applications</h3><p>Final Year</p><small>MEASI Institute of Information Technology · Madras University</small></article>
+          <article class="education-card"><span class="edu-year">2022 — 2025</span><h3>B.Sc. Computer Science</h3><p>Undergraduate</p><small>The New College · Madras University</small></article>
+        </div>
+        <div class="cert-area"><h3>Certifications</h3><div class="cert-list">
+          <span>Data Science Essentials with Python <small>· Cisco Networking Academy</small></span>
+          <span>Machine Learning <small>· CodeChef</small></span>
+          <span>Data Analysis using Python <small>· CodeChef</small></span>
+          <span>SQL and Relational Databases 101 <small>· IBM Skills Network / Cognitive Class</small></span>
+          <span>Learn SQL <small>· CodeChef</small></span>
+          <span>Learn Python for Project Building <small>· CodeChef</small></span>
+        </div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner"><p class="section-kicker">06 / GET IN TOUCH</p><h2>Have an opportunity<br>or an idea? <span>Let's talk.</span></h2>
+        <p>I'm open to entry-level opportunities and collaborations in Python, data analytics, machine learning and cloud technologies.</p>
+        <a class="btn btn-primary" href="mailto:shajith8047@gmail.com">Say hello ↗</a>
+        <div class="contact-details"><a href="mailto:shajith8047@gmail.com">shajith8047@gmail.com</a><a href="tel:+917448966069">+91 74489 66069</a><a href="https://www.linkedin.com/in/shajith-a-k-a82b0b387" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://github.com/SHAJITH-AK" target="_blank" rel="noopener">GitHub ↗</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container"><a class="logo" href="#home">SAK<span>.</span></a><p>Designed & built with HTML, CSS and JavaScript.</p><span>© <span id="year"></span> Shajith Abdul Kareem</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
